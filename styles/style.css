@@ -123,8 +123,7 @@ h2 {
 }
 
 .social:hover {
-  transform: scale(1.5);/* 150% */
-  
+  transform: scale(1.5);
 }
 
 /* work & about section */
