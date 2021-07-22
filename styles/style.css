@@ -507,9 +507,11 @@ form {
   display: none;
 }
 
+
 .contact_me:hover {
   transform: translate(8px, 12px);
 }
+
 
 .socials {
   display: table;
