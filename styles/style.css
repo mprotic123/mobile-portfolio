@@ -122,6 +122,10 @@ h2 {
   gap: 20px;
 }
 
+.social:hover {
+  transform: scale(1.5);
+}
+
 /* work & about section */
 .recent_work {
   top: -110px;
@@ -503,9 +507,17 @@ form {
   display: none;
 }
 
+.contact_me:hover {
+  transform: translate(8px, 12px);
+}
+
 .socials {
   display: table;
   margin-left: -160px;
+}
+
+.socials:hover {
+  transform: rotate(350deg);
 }
 
 .social2 {
