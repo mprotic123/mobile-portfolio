@@ -77,6 +77,7 @@ header {
   font-weight: 600;
   padding: 10px 24px;
   color: #28352f;
+  transform: rotate(180deg);
 }
 
 .menu {
@@ -233,6 +234,11 @@ h2 {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
+}
+
+.tag_txt:hover {
+  transform: rotate(360deg);
+  transition: 1s;
 }
 
 .act_btn {
