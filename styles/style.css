@@ -108,6 +108,10 @@ h1 {
   line-height: 52px;
 }
 
+h1:hover {
+  transform: scale(1.3);
+}
+
 h2 {
   font-size: 40px;
   font-weight: bold;
@@ -270,6 +274,7 @@ button {
   font-size: 16px;
   border: none;
   background-color: #36b37f;
+  transition: background 0.5s ease-in-out;
 }
 
 button:hover {
@@ -278,7 +283,7 @@ button:hover {
   padding: 12px 24px;
   border-radius: 4px;
   font-size: 16px;
-  background-color: #36b37f;
+  background-color: #56e2a8;
   color: #fff;
 }
 
